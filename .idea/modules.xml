@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/low-level-design.iml" filepath="$PROJECT_DIR$/.idea/low-level-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oops/oops.iml" filepath="$PROJECT_DIR$/oops/oops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopstwo/oopstwo.iml" filepath="$PROJECT_DIR$/oopstwo/oopstwo.iml" />
     </modules>
   </component>
 </project>
