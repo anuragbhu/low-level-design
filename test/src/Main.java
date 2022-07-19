@@ -1,36 +1,21 @@
 public class Main {
-
+    static int s = 12;
     public static void main(String[] args) {
+        System.out.println(s);
         print();
-        Employee employee = new Employee(20, 45);
+        Car car = new Honda("India");
+        car.print();
+    }
+
+    public static int sum(int a, double b) {
+        return (int) (a + b);
+    }
+
+    public static int sum(double b, int a) {
+        return (int) (a + b);
     }
 
     public static void print() {
         System.out.println("Hello");
     }
-}
-
-class Employee {
-    int age;
-    int weight;
-
-    public Employee(int age) {
-        this(age, 0);
-        System.out.println("Hello");
-    }
-
-    public Employee(int age, int weight) {
-        System.out.println("Parameterized constructor called!");
-        this.age = age;
-        this.weight = weight;
-        print(this);
-    }
-
-    public void print(Employee e) {
-        System.out.println(e.age);
-        System.out.println(e.weight);
-        System.out.println("In Employee Class");
-    }
-
-
 }
