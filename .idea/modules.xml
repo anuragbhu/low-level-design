@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/low-level-design.iml" filepath="$PROJECT_DIR$/.idea/low-level-design.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops/oops.iml" filepath="$PROJECT_DIR$/oops/oops.iml" />
       <module fileurl="file://$PROJECT_DIR$/oopstwo/oopstwo.iml" filepath="$PROJECT_DIR$/oopstwo/oopstwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern/pattern.iml" filepath="$PROJECT_DIR$/pattern/pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
