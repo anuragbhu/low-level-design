@@ -11,12 +11,12 @@ public class FactorialUsingMultithreading {
             threads[i] = new MyThread(arr[i]);
             threads[i].start();
             // if we write thread.join() here then main thread will wait till thread[i] will complete,
-            // then only it will create thread[i+1] here.
+            // then only it will create new thread[i+1] here.
         }
 
         for (int i = 0; i < threads.length; i++) {
-            // Suppose, t1 -> 2sec, t2 -> 3sec, t3 -> 1sec, t4 -> 4sec (Condition we have 4 cores available
-            // and all threads are running in parallel). Then max execution time will be
+            // Suppose, t1 -> 2sec, t2 -> 3sec, t3 -> 1sec, t4 -> 4sec (Condition we have 4 cores
+            // available and all threads are running in parallel). Then max execution time will be
             // max(t1, t2, t3, t4)
             try {
                 // join used -> stop until all threads is completed

@@ -3,6 +3,8 @@ public class BankSynchronization {
         Bank account1 = new Bank(1, 100);
         Bank account2 = new Bank(2, 300);
 
+        // Multiple threads of one object.
+        // Object level synchronization
         MyThread[] myThread = new MyThread[6];
         myThread[0] = new MyThread(account1, true, 50);
         myThread[1] = new MyThread(account1, false, 100);
@@ -56,6 +58,9 @@ public class BankSynchronization {
             // synchronized (Bank.class) {
             // one thread of a class is allowed to run when we use class level lock
             // one thread of an object is allowed to run when we use object level lock
+            // Adding whole code in the synchronized block.
+            // We can assume below as in critical section
+            // We are taking lock on this object
             synchronized (this.obj) {
                 System.out.println("I'm in : " + currentThread().getName() + " for account " +
                         this.obj.getAccountNumber());

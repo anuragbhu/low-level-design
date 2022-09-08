@@ -1,6 +1,7 @@
 public class ThreadUsingThreadClass {
     public static void main(String[] args) {
         System.out.println("I'm in ThreadUsingThreadClass Class!");
+        // Below will not create new thread. It is just initializing a new object.
         MyThread thread = new MyThread();
 
 //         Two ways to start or run thread
